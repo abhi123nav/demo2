@@ -5,8 +5,9 @@
     "ng": "ng",
     "start": "node serve.js",
     "build": "ng build",
-  
+  "e2e":"ng e2e",
     "test": "ng test",
+    "lint":"ng lint",
     "heroku-postbuild": "ng build --prod"
   },
   "private": true,
